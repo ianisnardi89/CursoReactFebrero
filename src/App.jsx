@@ -1,9 +1,10 @@
 import "./App.css";
+import PrimerComponente from "./Components/PrimerComponente";
 
 function App() {
   return (
     <>
-      <h1>Hola mundo desde React</h1>
+      <PrimerComponente />
     </>
   );
 }

@@ -1,10 +1,13 @@
 import "./App.css";
-import PrimerComponente from "./Components/PrimerComponente";
+import Props from "./Components/Props";
+// import PrimerComponente from "./Components/PrimerComponente";
 
 function App() {
   return (
     <>
-      <PrimerComponente />
+      {/* <PrimerComponente /> */}
+
+      <Props nombre="Maria" />
     </>
   );
 }

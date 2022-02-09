@@ -9,7 +9,7 @@ class Props extends Component {
   render() {
     return (
       <>
-        <h1>Hola mi nombre es {this.props.nombre}</h1>
+        <h1>Tengo que comprar {this.props.frutas}</h1>
       </>
     );
   }

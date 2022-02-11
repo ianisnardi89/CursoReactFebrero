@@ -1,5 +1,6 @@
 import "./App.css";
-import Props from "./Components/Props";
+import State from "./Components/State";
+// import Props from "./Components/Props";
 // import PrimerComponente from "./Components/PrimerComponente";
 
 function App() {
@@ -9,7 +10,9 @@ function App() {
     <>
       {/* <PrimerComponente /> */}
 
-      <Props frutas={lista} />
+      {/* <Props frutas={lista} /> */}
+
+      <State />
     </>
   );
 }
